@@ -13,4 +13,8 @@ void multiplyMatrices(int first[SIZE][SIZE], int second[SIZE][SIZE], int result[
             }
         }
     }
+
+    for (i = 0; i < 100; i++) {
+        printf("%d ", i);
+    }
 }

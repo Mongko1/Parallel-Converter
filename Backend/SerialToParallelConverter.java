@@ -13,7 +13,6 @@ public class SerialToParallelConverter {
 
         // Regex to find 'for' loops
         Pattern forLoopPattern = Pattern.compile("(\\s*for\\s*\\([^)]*\\))\\s*\\{\\s*([^}]*)\\s*\\}");
-        //Pattern forLoopPattern = Pattern.compile("(\\s*for\\s*\\([^)]*\\))\\s*\\{?");
         Matcher matcher = forLoopPattern.matcher(cCode);
 
         int lastEnd = 0;
